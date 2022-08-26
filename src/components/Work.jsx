@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkImg from '../assets/shopreact.jpg';
+import WorkImg from '../assets/newmarket.png';
 import realEstate from '../assets/sneakers.png';
 import crypto from '../assets/crypto.png';
 import wt from '../assets/wheather.png';
