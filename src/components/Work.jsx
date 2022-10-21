@@ -1,6 +1,6 @@
 import React from "react";
 import music from "../assets/music.png";
-import wt from "../assets/wheather.png";
+import yout from "../assets/yout.png";
 import ms from "../assets/magazinesneakers.png";
 import folio from "../assets/folio.png";
 import cv from "../assets/cv.png";
@@ -24,6 +24,29 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
+            style={{ backgroundImage: `url(${yout})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                React JS Application
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://youtube-inky-tau.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Murad-weblancer/youtube.git">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
             style={{ backgroundImage: `url(${music})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -46,6 +69,7 @@ const Work = () => {
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${ms})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -136,12 +160,11 @@ const Work = () => {
               </div>
             </div>
           </div> */}
-
+          {/* 
           <div
             style={{ backgroundImage: `url(${wt})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
-            {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
@@ -159,7 +182,7 @@ const Work = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
 
           <div
             style={{ backgroundImage: `url(${cv})` }}
